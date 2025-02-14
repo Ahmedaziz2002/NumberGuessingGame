@@ -3,12 +3,19 @@ body{
     text-align: center;
     background-color: #d4d4da;
     font-size: 1.2em;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
 }
 .game-container{
     background-color: rgb(202, 197, 202);
     padding: 20px;
-    margin: 50px auto;
-    width: 50%;
+    margin: 20px;
+    width: 90%;
+    max-width: 350px;
     border-radius: 12px;
     box-shadow: 4px 4px 10px rgba(0,0,0,0.3);
 }
@@ -32,4 +39,32 @@ button{
 button:hover{
     background-color: rgb(58, 34, 34);
     transform: rotate(2deg)scale(1,1);
+}
+@media(max-width:768px){
+    .game-container{
+        width: 95%;
+        padding:15px;
+    }
+    input,button{
+        font-size: 14px;
+        padding: 8px;
+    }
+}
+@media(max-width:480px){
+    .game-container{
+        width: 100%;
+        border-radius: 0;
+        box-shadow: none;
+    }
+    h1{
+        font-size: 20px;
+
+    }
+    p{
+        font-size: 14px;
+    }
+    input,button{
+        font-size: 13px;
+        padding: 6px;
+    }
 }
