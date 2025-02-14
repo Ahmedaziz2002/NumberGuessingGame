@@ -1,0 +1,35 @@
+body{
+    font-family: sans-serif;
+    text-align: center;
+    background-color: #d4d4da;
+    font-size: 1.2em;
+}
+.game-container{
+    background-color: rgb(202, 197, 202);
+    padding: 20px;
+    margin: 50px auto;
+    width: 50%;
+    border-radius: 12px;
+    box-shadow: 4px 4px 10px rgba(0,0,0,0.3);
+}
+input{
+    width: 80%;
+    padding: 10px;
+    border-radius: 10px;
+    font-size: 1.2em;
+    margin: 10px 0;
+}
+button{
+    padding: 10px 15px;
+    border: none;
+    width: 50%;
+    border-radius: 8px;
+    color: white;
+    cursor: pointer;
+    background-color: black;
+    font-size: 1.3em;
+}
+button:hover{
+    background-color: rgb(58, 34, 34);
+    transform: rotate(2deg)scale(1,1);
+}
